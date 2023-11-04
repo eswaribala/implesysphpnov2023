@@ -1,6 +1,6 @@
 import {Address} from "./Address";
-enum Gender{MALE,FEMALE,TRANSGENDER}
-class Person{
+export enum Gender{MALE,FEMALE,TRANSGENDER}
+export class Person{
     protected _adharCardNo:string;
     protected _firstName:string
     protected _middleName:string
