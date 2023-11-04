@@ -19,4 +19,7 @@ export class Patient extends Person{
     set patientHistory(value: History) {
         this._patientHistory = value;
     }
+
+    login(): void {
+    }
 }

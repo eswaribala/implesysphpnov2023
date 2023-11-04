@@ -1,6 +1,6 @@
 import {Address} from "./Address";
 export enum Gender{MALE,FEMALE,TRANSGENDER}
-export class Person{
+export abstract class Person{
     protected _adharCardNo:string;
     protected _firstName:string
     protected _middleName:string
@@ -76,4 +76,9 @@ export class Person{
     set address(value: Address) {
         this._address = value;
     }
+
+    //abstract method
+    abstract  login():void;
+
 }
+

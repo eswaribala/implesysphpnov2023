@@ -2,7 +2,7 @@
 
 namespace models;
 
-class Person
+abstract class Person
 {
     protected $adharCardNo;
     protected $firstName;
@@ -144,7 +144,7 @@ class Person
         $this->contactNo = $contactNo;
     }
 
-
+   abstract public  function login();
 
 
 }

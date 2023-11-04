@@ -51,6 +51,8 @@ class Doctor extends Person
     }
 
 
-
-
+    public function login()
+    {
+        // TODO: Implement login() method.
+    }
 }
