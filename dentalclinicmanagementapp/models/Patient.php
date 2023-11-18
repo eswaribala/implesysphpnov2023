@@ -39,6 +39,6 @@ class Patient extends Person
 
     public function login()
     {
-        echo "Patient logged in";
+        echo "Patient logged in\n";
     }
 }
