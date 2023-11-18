@@ -40,6 +40,6 @@ class Patient extends Person
 
     public function login()
     {
-        // TODO: Implement login() method.
+        echo "Patient logged in";
     }
 }
