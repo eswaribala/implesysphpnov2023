@@ -32,6 +32,28 @@ abstract class Person
         $this->contactNo = $contactNo;
     }
 
+
+    function login($userName,$password){
+
+    }
+
+    /*function login($userName,$password,$role){
+
+    }*/
+
+
+   /* public function __construct($adharCardNo, $firstName)
+    {
+        $this->adharCardNo = $adharCardNo;
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->middleName = $middleName;
+        $this->dob = $dob;
+        $this->address = $address;
+        $this->contactNo = $contactNo;
+    }
+
+    */
     /**
      * @return mixed
      */

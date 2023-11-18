@@ -1,6 +1,6 @@
 import {Address} from "./Address";
-enum Gender{MALE,FEMALE,TRANSGENDER}
-class Person{
+export enum Gender{MALE,FEMALE,TRANSGENDER}
+export abstract class Person{
     protected _adharCardNo:string;
     protected _firstName:string
     protected _middleName:string
@@ -8,8 +8,6 @@ class Person{
     protected _contactNo:number[]
     protected _gender:Gender
     protected _address:Address; //has relationship
-
-
 
 
     constructor(adharCardNo: string, firstName: string, middleName: string, dob: Date, contactNo: number[], gender: Gender, address: Address) {
@@ -78,4 +76,9 @@ class Person{
     set address(value: Address) {
         this._address = value;
     }
+
+    //abstract method
+    abstract  login():void;
+
 }
+
