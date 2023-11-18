@@ -15,5 +15,6 @@ for($i=0;$i<100;$i++){
             ,new Address("","","",0,""),9952032862,'')])
     );
 }
+$patientSequence->add(new Sequence([new Patient("A0","F0","L0","","2024-12-02",new Address("","","",0,""),9952032862,'')]));
 
-echo $patientSequence->get(2);
+

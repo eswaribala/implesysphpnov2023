@@ -20,3 +20,12 @@ patients.push(new Patient('A'+100,
 patients.forEach(p=>{
     console.log(p)
 })
+
+
+let doctorList=[];
+doctorList.push("Parameswari");
+doctorList.push("Vignesh");
+doctorList.push("Bala");
+doctorList.push("Bala");
+
+console.log(doctorList);
