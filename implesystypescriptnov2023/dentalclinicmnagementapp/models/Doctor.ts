@@ -28,5 +28,6 @@ export class Doctor extends Person{
     }
 
     login(): void {
+        console.log("Doctor logged in")
     }
 }

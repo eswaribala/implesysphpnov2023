@@ -21,5 +21,6 @@ export class Patient extends Person{
     }
 
     login(): void {
+        console.log("Patient logged in")
     }
 }

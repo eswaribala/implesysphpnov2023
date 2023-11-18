@@ -33,9 +33,7 @@ abstract class Person
     }
 
 
-    function login($userName,$password){
 
-    }
 
     /*function login($userName,$password,$role){
 
