@@ -1,7 +1,6 @@
 <?php
 
 namespace models;
-
 class Patient extends Person
 {
     private $patientHistory;

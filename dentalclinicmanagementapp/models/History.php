@@ -2,7 +2,9 @@
 
 namespace models;
 
-class History
+interface History
 {
 
+    public function getHistoryInfo();
+    public function historyDisplay();
 }

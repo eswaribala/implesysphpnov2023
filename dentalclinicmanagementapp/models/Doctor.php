@@ -1,7 +1,5 @@
 <?php
-
 namespace models;
-
 class Doctor extends Person
 {
     private $licenseNo;
