@@ -1,11 +1,10 @@
 <?php
+//lambda method
+
+$totalBill=fn($bill1,$bill2)=> $bill1+$bill2;
+
+echo $totalBill(438658,3956936);
 
 
-$totalBill=function($dataArray){
-    $sum=0;
-    foreach ($dataArray as $data){
-        $sum+=$data;
-    }
-};
 
-$bills=array(37848,349659,24568,439958);
+
