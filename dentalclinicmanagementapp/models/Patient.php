@@ -41,4 +41,11 @@ class Patient extends Person
     {
         echo "Patient logged in\n";
     }
+
+    public function __toString()
+    {
+        return $this->firstName." ".$this->lastName;
+    }
+
+
 }

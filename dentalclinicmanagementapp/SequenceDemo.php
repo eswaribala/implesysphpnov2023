@@ -17,4 +17,9 @@ for($i=0;$i<100;$i++){
 }
 $patientSequence->add(new Sequence([new Patient("A0","F0","L0","","2024-12-02",new Address("","","",0,""),9952032862,'')]));
 
+echo $patientSequence->count();
 
+foreach($patientSequence as $patient){
+    $obj_str = print_r($patient, true);
+    echo $obj_str;
+}
