@@ -14,15 +14,18 @@ for(let i=0;i<100;i++) {
 }
 
 //retrieve only keys
+// @ts-ignore
 for(let key of patientsMap.keys()){
     console.log("Keys="+key)
 }
 //retrieve only values
+// @ts-ignore
 for(let value of patientsMap.values()){
     console.log("Values="+value)
 }
 
 //retrieve only entries
+// @ts-ignore
 for(let entry of patientsMap.entries()){
     console.log(entry[0],entry[1])
 }
