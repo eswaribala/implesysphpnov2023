@@ -19,3 +19,18 @@ let totalBill1=function (data){
 };
 
 console.log(totalBill1(bills));
+
+let customers=[{'name':'Parameswari','age':53},
+    {'name':'Anand','age':23},
+    {'name':'Jaya','age':35},
+    {'name':'Sumith','age':12}
+];
+
+//sort using lambda
+//customers.sort((obj1,
+  //              obj2)=>obj1.age<obj2.age ? -1 :1);
+
+customers.sort((obj1,
+                obj2)=>obj1.age-obj2.age);
+
+ console.log(customers);
